@@ -58,4 +58,14 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  body::-webkit-scrollbar {
+    background-color: transparent;
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #666666B3;
+    border-radius: 999px;
+}
 }
